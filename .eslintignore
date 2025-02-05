@@ -1,0 +1,7 @@
+node_modules
+dist
+vite-env.d.ts
+i18next-parser.config.js
+lint-staged.config.js
+prettier.config.js
+src/app/services
