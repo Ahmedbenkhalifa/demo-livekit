@@ -19,10 +19,7 @@ export default defineConfig({
   preview: {
     port: 3000,
   },
-  plugins: [
-    react(),
-    tsconfigPaths(),
-  ],
+  plugins: [react(), tsconfigPaths()],
   build: {
     chunkSizeWarningLimit: 1000,
 

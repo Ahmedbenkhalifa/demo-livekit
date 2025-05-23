@@ -28,7 +28,9 @@
     "dev": "concurrently \"vite\" \"node server/index.js\"",
     "preview": "vite preview",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "format:check": "prettier --check .",
+    "format:fix": "prettier --write .",
     "typecheck": "tsc --noEmit",
     "build:www": "vite build",
     "server": "node server/index.js"
