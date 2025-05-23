@@ -4,7 +4,7 @@ import '@livekit/components-styles/prefabs'
 import { ThemeProvider } from '@mui/material/styles'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import theme from '@styles/theme'
-import DemoMeetingTab from './demo-meeting-tab'
+// import DemoMeetingTab from './demo-meeting-tab'
 
 const App: React.FC = () => {
   return (
