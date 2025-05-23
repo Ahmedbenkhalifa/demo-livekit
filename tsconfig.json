@@ -42,9 +42,9 @@
       "@types/*": ["./src/types/*"],
       "@utils": ["./src/utils"],
       "@styles": ["./src/styles"],
-      "@styles/*": ["./src/styles/*"],
+      "@styles/*": ["./src/styles/*"]
     }
   },
-  "include": [".eslintrc.js", "lint-staged.config.js", "src", "./vite.config.ts"],
+  "include": [".eslintrc.js", "lint-staged.config.js", "src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

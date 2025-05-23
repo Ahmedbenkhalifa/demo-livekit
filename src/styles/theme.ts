@@ -14,7 +14,6 @@ const darkTheme = createTheme({
       paper: '#141517',
     },
   },
-
 })
 
 export default responsiveFontSizes(darkTheme)
